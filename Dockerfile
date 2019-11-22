@@ -2,7 +2,7 @@ FROM strapi/base
 
 WORKDIR /
 
-RUN sudo apt-get -y update
+RUN apt-get -y update
 
 RUN apt-get install -y sqlite3 libsqlite3-dev
 
