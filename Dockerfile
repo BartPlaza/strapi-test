@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm build
+RUN npm run-script build
 
 EXPOSE 1337
 
