@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ciastkas",
+      "handler": "Ciastka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ciastkas/count",
+      "handler": "Ciastka.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ciastkas/:id",
+      "handler": "Ciastka.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ciastkas",
+      "handler": "Ciastka.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ciastkas/:id",
+      "handler": "Ciastka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ciastkas/:id",
+      "handler": "Ciastka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

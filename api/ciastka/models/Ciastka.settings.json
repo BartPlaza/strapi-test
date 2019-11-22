@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "ciastkas",
+  "info": {
+    "name": "ciastka",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nazwa": {
+      "type": "string"
+    }
+  }
+}
