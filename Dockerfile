@@ -2,7 +2,7 @@ FROM strapi/base
 
 WORKDIR /
 
-RUN sudo apt-get install -y sqlite3 libsqlite3-dev
+RUN apt-get install -y sqlite3 libsqlite3-dev
 
 RUN mkdir /db
 
