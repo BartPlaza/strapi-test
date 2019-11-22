@@ -14,4 +14,4 @@ EXPOSE 1337
 
 ENV NODE_ENV production
 
-CMD ["NODE_ENV=production", "npm", "start"]
+CMD ["npm", "start"]
